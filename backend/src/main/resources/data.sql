@@ -21,3 +21,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 1, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('ForumL', 'Tire suas duvidas', 2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives exclusivas para a turma', 'Trilha principal do curso', 3, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 0, 1);
+
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Vamos começar', 1, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 1, null);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Vamos continuar', 2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 1, 1);
+INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Vamos finalizar', 3, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiFgug2Q-ht5w8aiVHSXJP3qKdZ4ZOgiiGHEiHcpuQ4A&s', 1, 2);
