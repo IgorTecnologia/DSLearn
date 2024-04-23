@@ -24,7 +24,7 @@ public class Notification {
 	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant moment;
-	private Boolean read = false;
+	private boolean read = false;
 	private String route;
 	
 	@ManyToOne
@@ -66,11 +66,11 @@ public class Notification {
 		this.moment = moment;
 	}
 
-	public Boolean getRead() {
+	public boolean isRead() {
 		return read;
 	}
 
-	public void setRead(Boolean read) {
+	public void setRead(boolean read) {
 		this.read = read;
 	}
 
@@ -80,6 +80,14 @@ public class Notification {
 
 	public void setRoute(String route) {
 		this.route = route;
+	}
+	
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	@Override
