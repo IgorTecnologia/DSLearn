@@ -19,6 +19,9 @@ git clone https://github.com/IgorTecnologia/DSLearn.git
 
 Import this URL into your Postman to use the ready-made HTTP methods to make requests/responses:
 
+[Uploading DSLearn.collection.json…]()
+
+
 ```
 https://api.postman.com/collections/30344579-02629545-2d22-41d9-8c48-f8da1fb582c1?access_key=PMAT-01J517AZ8Y9WPY9RR91FF8V3HA
 ```
