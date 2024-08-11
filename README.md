@@ -17,34 +17,11 @@ git clone https://github.com/IgorTecnologia/DSLearn.git
 
 ## Collection Postman
 
-Import this URL into your Postman to use the ready-made HTTP methods to make requests/responses:
+Download these files and import them into your Postman to use the ready-made HTTP methods along with the already configured environment variables, to perform the requests/responses
 
-[Uploading DSLearn.collection.json…]()
+[Download Collection](https://github.com/IgorTecnologia/DSLearn/blob/docs-postman/DSLearn.collection.json)
 
-
-```
-https://api.postman.com/collections/30344579-02629545-2d22-41d9-8c48-f8da1fb582c1?access_key=PMAT-01J517AZ8Y9WPY9RR91FF8V3HA
-```
-
-# Important
-first and important step logging into the application on the route:
-POST /oauth/token
-
-Basic Auth type variable data:
-
-{{client-id}} value: myclientid
-
-{{client-secret}} value: myclientsecret
-
-and body:
-
-{{username}} value: maria@gmail.com
-
-{{password}} value: 123456
-
-{{grant_type}} value name: password
-
-This way you will have access to all the application's resources, because Maria has the role of admin.
+[Download Environment Variables](https://github.com/IgorTecnologia/DSLearn/blob/docs-postman/dslearn-local.environment.json)
 
 ## API Endpoints
 The API provides the following endpoints:
@@ -53,7 +30,7 @@ The API provides the following endpoints:
 ```markdown
 POST /oauth/token - Request login to the application
 
-Configure the variables presented above #Important
+This way you will have access to all the application's resources, because Maria has the role of admin.
 ```
 ```json
 {
