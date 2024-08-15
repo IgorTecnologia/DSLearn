@@ -6,11 +6,11 @@
 
 Este projeto é uma plataforma de Ensino a Distância (EAD) desenvolvida como um sistema monolítico, focado em oferecer funcionalidades robustas de gerenciamento e interação entre usuários, administradores e instrutores.
 
-Autenticação e Segurança:
+- Autenticação e Segurança:
 
 A aplicação utiliza Security/OAuth para gerenciar a autenticação dos usuários, garantindo que somente pessoas autorizadas tenham acesso aos recursos da plataforma.
 
-Funcionalidades Disponíveis:
+- Funcionalidades Disponíveis:
 
 A plataforma disponibiliza três APIs REST principais para a interação com os dados:
 
@@ -20,7 +20,7 @@ Buscar Notificações de Usuários: Fornece acesso às notificações enviadas a
 
 Salvar Revisões de Atividades: Admins e instrutores podem utilizar esta API para registrar revisões realizadas nas atividades dos alunos, garantindo um acompanhamento detalhado do progresso acadêmico.
 
-O que a plataforma proporciona?
+- O que a plataforma proporciona?
 
 Esta plataforma EAD foi projetada para fornecer uma experiência de aprendizado online eficaz, com um foco especial em segurança e gestão centralizada. A estrutura monolítica permite que todas as funcionalidades sejam mantidas dentro de um único sistema, facilitando a integração e o gerenciamento.
  
