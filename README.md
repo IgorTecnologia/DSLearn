@@ -1,14 +1,17 @@
 # Plataforma EAD - Sistema Monolítico
+## DSLearn
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
 Este projeto é uma plataforma de Ensino a Distância (EAD) desenvolvida como um sistema monolítico, focado em oferecer funcionalidades robustas de gerenciamento e interação entre usuários, administradores e instrutores.
 
-Autenticação e Segurança
+Autenticação e Segurança:
+
 A aplicação utiliza Security/OAuth para gerenciar a autenticação dos usuários, garantindo que somente pessoas autorizadas tenham acesso aos recursos da plataforma.
 
-Funcionalidades Disponíveis
+Funcionalidades Disponíveis:
+
 A plataforma disponibiliza três APIs REST principais para a interação com os dados:
 
 Buscar Usuário por ID: Permite a recuperação das informações de um usuário específico através do seu ID.
