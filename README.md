@@ -71,7 +71,7 @@ The application comes with the H2 database as standard.
 
 ## Technologies Used
 
-- JDK 11
+- JAVA VERSION 11
 - Spring Boot
 - Maven
 - H2 Database
